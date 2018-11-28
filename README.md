@@ -4,13 +4,17 @@ use A* and ARA algorithm to find shortest path
 
 ## Installing
 
-Use cmd to compile two file **main_AStar.py** for A* algorithm and  **main_ARA.py** for ARA algorithm.
+Use cmd to compile two files:
+
+**main_AStar.py** for A* algorithm
+
+**main_ARA.py** for ARA algorithm.
 ```
 python main_AStar.py  < input file > < output file> 
 ```
 **GUI:** if you want to open in GUI mode, don't pass any args.
 ```
-python main_AStar.py
+python main_ARA.py
 ```
 
 ### Input Output file
