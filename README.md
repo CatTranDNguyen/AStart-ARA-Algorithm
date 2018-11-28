@@ -17,7 +17,7 @@ python main_AStar.py  < input file > < output file>
 python main_ARA.py
 ```
 
-### Input Output file
+### Input/Output file
 
 #### INPUT 
 Line 1: integer N : NxN matrix
