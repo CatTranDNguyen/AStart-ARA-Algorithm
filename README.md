@@ -15,52 +15,52 @@ python main_AStar.py
 
 ### Input Output file
 
-**INPUT 
+#### INPUT 
+Line 1: integer N : NxN matrix
+
+Line 2: 2 integers X0, Y0: Start(X0, Y0)
+
+Line 3: 2 integers X0, Y0: Goal(X0, Y0)
+
+Next N lines:
+N symbols (0 or 1) indicating free space (0) or obstacle (1). 
 
 ```
-Give examples
+7
+0 0
+6 5
+0 0 0 0 0 0 0
+1 0 1 1 1 0 0
+1 0 1 1 1 0 0
+0 0 1 0 0 0 0
+0 1 1 0 1 0 0
+0 0 0 0 1 0 0
+1 1 1 1 1 0 0
 ```
+#### OUTPUT
 
-### Installing
+Line 1: integer L: Length of the path (including Start Point and End Point)
 
-A step by step series of examples that tell you how to get a development env running
+Line 2: Path Order
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+Next N lines:
+N symbols indicating free space (-), obstacle (o), path (x), Start Point (S) or Goal Point (G).
 
 ```
-until finished
+11
+(0,0) (1,1) (0,2) (0,3) (0,4) (1,5) (2,6) (3,6) (4,5) (5,6) (6,5) 
+S - x x x - -
+o x o o o x -
+o - o o o - x
+- - o - - - x
+- o o - o x -
+- - - - o - x
+o o o o o G -
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Cat Tran D. Nguyen** - [Trân](https://github.com/HeyIamKi)
+* **Huyen Tram Dang**
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
